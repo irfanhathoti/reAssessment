@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(119, 10, 221);
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.container{
+    background-color: rgb(90, 1, 173);
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#copyPassword{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(111, 0, 214);
+    border: 0;
+    outline: 0;
+    font-size: 19px;
+    color: white;
+}
+.container div div button{
+    height: 43px;
+    width: 60px;
+    /* padding: 10px; */
+    color: white;
+    background-color: rgb(111, 0, 214);
+    border: transparent;
+    font-size: 18px;
+    padding-top: 2px;
+    cursor: pointer;
+    transition: color .4s;
+}
+.container div div button:hover{
+    color:gray;
+}
+h1{
+    font-family: sans-serif;
+}
+.container div{
+    margin: 20px;
+}
+
+.input_fields{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.input_fields label{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input_fields input:not(input[type='number']){
+    height: 22px;
+    width: 22px;
+}
+#gPassword{
+    background-color: rgba(178, 111, 241,0.4);
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 2px solid rgb(212, 187, 236);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input_fields input:not(input[type='checkbox']){
+    width: 40px;
+    outline: 0;
+}
